@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: orange;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    font-size: 22PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+float: left;
+font-weight: bold;
+text-shadow: 0 0 5px #333;
+font-size: 30px;
+}
+.logo span{
+    color: #000;
+}
+
+.barra-de-navegación{
+    float: right;
+}
+
+.barra-de-navegación a{
+color: #fff;
+text-decoration: none;
+margin-right: 15px;
+}
+
+.barra-de-navegación li{
+list-style: none;
+display: inline-block;
+}
+
+.barra-de-navegación a:hover{
+    color: #333;
+}
+
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #000;
+    background-image: url(Multimedia/imagenes/foto\ cafe1.jpg);
+    background-size: cover;
+    border: #fff solid 5px;
+   
+
+}
+
+.div1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    font-size: 25px;
+}
+
+.div1 h1{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec {
+    text-align: center;
+    background-color: orange;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+.cont{
+    background-color: #333;
+    height: 600px;
+    width: 100%;
+}
+
+footer{
+    background-color: orange;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.redes{
+    font-size: 60px;
+}
+
+.redes a{
+color: #fff;
+
+}
+
+.redes a:hover{
+     border: 2px; color: black;
+}
+
+.up{
+    height: 45px;
+    width: 40px;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: 2px solid #fff
+    
+}
+
+.up a{
+    color:#fff;
+}
+
+.up:hover{
+    background-color: #333;
+}
+
+.cont{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: #fff solid 5px;
+    font-size: 20px;
+    
+}
+
+.cont1{
+    background-image:url(Multimedia/imagenes/granos\ de\ cafe.jpg);
+    font-size: 25px;
+}
+
+.cont2{
+    background-image: url(Multimedia/imagenes/foto\ cafe\ carta\ seccion.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.cont2 h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+.cont2 p{
+    font-size: 20px;
+}
+
+.cont3{
+    background-image: url(Multimedia/imagenes/cafe\ maquina.jpg);
+    background-size: cover;
+}
+.cont3 form{
+    float: right;
+}
+
+.cont4{
+    background-image: url(Multimedia/imagenes/cafe\ foto\ final.jpg);
+    background-size: cover;
+}
+
+.cont4 form{
+    float: right;
+}
